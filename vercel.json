@@ -10,7 +10,7 @@
     },
     {
       "source": "/v1/:path*",
-      "destination": "https://api.vbcoding.cc/v1/:path*"
+      "destination": "https://api.vbcoding.cc/:path*"
     }
   ]
 }
