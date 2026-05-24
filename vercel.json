@@ -5,10 +5,6 @@
   },
   "rewrites": [
     {
-      "source": "/v1/images/generations",
-      "destination": "https://api.vbcoding.cc/images/generations"
-    },
-    {
       "source": "/v1/:path*",
       "destination": "https://api.vbcoding.cc/v1/:path*"
     }
