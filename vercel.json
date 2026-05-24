@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://api.vbcoding.cc/v1/:path*"
+      "destination": "https://api.vbcoding.cc/:path*"
     },
     {
       "source": "/v1/:path*",
