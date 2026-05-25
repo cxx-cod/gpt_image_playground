@@ -16,6 +16,10 @@
   ],
   "rewrites": [
     {
+      "source": "/api-proxy/:path*",
+      "destination": "https://api.vbcoding.cc/v1/:path*"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
